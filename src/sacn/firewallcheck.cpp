@@ -5,6 +5,7 @@
 #include "firewallcheck.h"
 #include "streamcommon.h"
 
+#undef Q_OS_WIN
 #ifdef Q_OS_WIN
 #include "netfw.h"
 #include "Objbase.h"

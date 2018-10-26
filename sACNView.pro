@@ -52,7 +52,7 @@ DEFINES += GIT_DATE_MONTH=\\\"$$GIT_DATE_MONTH\\\"
 DEFINES += GIT_DATE_YEAR=\\\"$$GIT_DATE_YEAR\\\"
 
 # Debug symbols
-win32 {
+msvc {
     QMAKE_CXXFLAGS += /Zi
     QMAKE_LFLAGS += /INCREMENTAL:NO /Debug
 }
