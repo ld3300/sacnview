@@ -29,7 +29,7 @@ macx {
 }
 
 # Debug symbols
-win32 {
+msvc {
     QMAKE_CXXFLAGS += /Zi
     QMAKE_LFLAGS += /INCREMENTAL:NO /Debug
 }
