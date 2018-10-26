@@ -349,7 +349,7 @@ void MultiUniverse::setupControl(int row, sACNEffectEngine::FxMode mode, int val
             QTableWidgetItem *item = new QTableWidgetItem(m_fxEngines[row]->text());
             ui->tableWidget->setItem(row, COL_CONTROL, item);
         }
-        m_fxEngines[row]->setRate(1);
+        m_fxEngines[row]->setRate(30);
         }
         break;
     default:
